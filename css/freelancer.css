@@ -48,7 +48,7 @@ hr.star-primary:after {
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f005'; }
+  content: '\f004'; }
 
 hr.star-light {
   border-color: white; }
@@ -181,9 +181,11 @@ section.success {
 header.masthead {
   padding-top: 100px;
   padding-bottom: 50px;
+  background-image: url("../img/header-background.jpg");
+  background-size: cover;
+  background-position: top;
   text-align: center;
-  color: white;
-  background: #fee4d4; }
+  color: white; }
   header.masthead img {
     display: block;
     margin: 0 auto 20px; }

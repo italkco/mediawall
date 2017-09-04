@@ -1,12 +1,17 @@
 // Styling for the masthead
 header.masthead {
+  // margin-top: 120px;
   padding-top: 100px;
   padding-bottom: 50px;
+
+  background-image: url("../img/header-background.jpg");
+  background-size: cover;
+  background-position: top;
 
   text-align: center;
 
   color: white;
-  background: $theme-success;
+
   img {
     display: block;
 
